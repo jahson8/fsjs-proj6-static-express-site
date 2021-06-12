@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+html(lang="en" dir="ltr")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Jason Miller || Portfolio Site
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel='stylesheet', href='/static/css/normalize.css')
+    link(rel='stylesheet', href='/static/css/styles.css')
+
+  body
+    #my-info.sidebar
+      .sidebar-info-box
+        br
+        .thumbnail-box
+          img.thumbnail(src='https://placehold.it/550x350', alt='')
+        .dev-intro-box
+
+
+          h5 Jason Miller
+
+     
+          p I am a Front-end Web developer based in Jamaica. I have recently finished the Team TreeHouse Front-End Web Development Techdegree.
+
+     
+          a(href='/about') Learn More &rarr;
+
+    .wrapper
+      .header
+        .header-info-box
+          button#menu-icon.menu-icon(type='button' data-toggle='my-info')
+
+          span Jason Miller
+
+      block content
+
+  script(src='/static/js/script.js')

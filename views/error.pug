@@ -1,0 +1,16 @@
+extends layout.pug 
+
+block content 
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-about
+    .inner-wrapper
+      .about-intro-box.box
+
+        h1 There Seems to be a problem
+        h2 #{err.status}  #{err.message}
+        p Please try your request later

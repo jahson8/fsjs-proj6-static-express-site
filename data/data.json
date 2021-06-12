@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "projectName": "Employee Directory",
+      "description": "This project uses JavaScript (fetch) to capture the details of 12 random persons from the Random User Generator API. The data is formatted and displayed on the page via HTML,CSS. The ability to filter through the generated users was also added with JavaScript. The user may click one of these generated users to display a modal.",
+      "technologies": ["HTML", "SCSS", "JavaScript"],
+      "liveLink": "https://jahson8.github.io/fewd-project8-employeeDirectory/",
+      "githubLink": "https://github.com/jahson8/fewd-project8-employeeDirectory",
+      "imageUrls": ["https://place-hold.it/1200x550/red"]
+    },
+    {
+      "id": 2,
+      "projectName": "WebApp Dashboard",
+      "description": "This project is a mock webapp dashboard. The page uses a combination of CSS grid and flexbox to layout and style the widgets. The Charts.js Library and HTML Canvas are used to generate the the different graphs.",
+      "technologies": ["HTML", "SCSS", "JavaScript"],
+      "liveLink": "https://jahson8.github.io/fewd-project-7-webapp-dashboard",
+      "githubLink": "https://github.com/jahson8/fewd-project-7-webapp-dashboard",
+      "imageUrls": ["https://place-hold.it/1200x550/red"]
+    },
+    {
+      "id": 3,
+      "projectName": "Phrase Hunter",
+      "description": "The project consists of using HTML, CSS and JavaScript to create a game similar to hangman. The player guesses the phrase by clicking a letter on the onscreen keyboard. If the user selects a letter which isn't in the phrase, the player loses a heart(try). The player has 5 tries to guess the phrase correctly.",
+      "technologies": ["HTML", "SCSS", "JavaScript"],
+      "liveLink": "https://jahson8.github.io/fsjs-proj-4-Game-App/",
+      "githubLink": "https://github.com/jahson8/fsjs-proj-4-Game-App",
+      "imageUrls": ["https://place-hold.it/1200x550/red"]
+    },
+    {
+      "id": 4,
+      "projectName": "Dice Roll",
+      "description": "This project allows user(s) to generate and roll up to six (6) different die at the same time. When the roll functionality is triggered by the user(s), each die returns a random value between one (1) and six (6).",
+      "technologies": ["HTML", "SCSS", "JavaScript"],
+      "liveLink": "https://jahson8.github.io/dice-roll/",
+      "githubLink": "https://github.com/jahson8/dice-roll",
+      "imageUrls": ["https://place-hold.it/1200x550/red"]
+    },
+    {
+      "id": 5,
+      "projectName": "Photo Gallery",
+      "description": "The project is an image gallery using CSS grid with a search feature implemented using vanilla JavaScript. Using the Baquette Box plugin, when a thumbnail is clicked; a lightbox is opened and the user views a larger version of the thumbnail. The user can also cycle through all images in the gallery in the lightbox mode.",
+      "technologies": ["HTML", "SCSS", "JavaScript"],
+      "liveLink": "https://jahson8.github.io/fewd-project5-photo-gallery",
+      "githubLink": "https://github.com/jahson8/fewd-project5-photo-gallery",
+      "imageUrls": ["https://place-hold.it/1200x550/red"]
+    }
+  ]
+}
