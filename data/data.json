@@ -7,7 +7,14 @@
       "technologies": ["HTML", "SCSS", "JavaScript"],
       "liveLink": "https://jahson8.github.io/fewd-project8-employeeDirectory/",
       "githubLink": "https://github.com/jahson8/fewd-project8-employeeDirectory",
-      "imageUrls": ["https://place-hold.it/1200x550/red"]
+      "images": {
+        "thumbnail": "../static/images/thumbnails/employee-dir.png",
+        "imageUrls": [
+          "../static/images/screenshots/employee-dir1.png",
+          "../static/images/screenshots/employee-dir2.png",
+          "../static/images/screenshots/employee-dir3.png"
+        ]
+      }
     },
     {
       "id": 2,
@@ -16,7 +23,14 @@
       "technologies": ["HTML", "SCSS", "JavaScript"],
       "liveLink": "https://jahson8.github.io/fewd-project-7-webapp-dashboard",
       "githubLink": "https://github.com/jahson8/fewd-project-7-webapp-dashboard",
-      "imageUrls": ["https://place-hold.it/1200x550/red"]
+      "images": {
+        "thumbnail": "../static/images/thumbnails/webapp-dash.png",
+        "imageUrls": [
+          "../static/images/screenshots/webapp-dash1.png",
+          "../static/images/screenshots/webapp-dash2.png",
+          "../static/images/screenshots/webapp-dash3.png"
+        ]
+      }
     },
     {
       "id": 3,
@@ -25,7 +39,14 @@
       "technologies": ["HTML", "SCSS", "JavaScript"],
       "liveLink": "https://jahson8.github.io/fsjs-proj-4-Game-App/",
       "githubLink": "https://github.com/jahson8/fsjs-proj-4-Game-App",
-      "imageUrls": ["https://place-hold.it/1200x550/red"]
+      "images": {
+        "thumbnail": "../static/images/screenshots/phrase-hunter1.png",
+        "imageUrls": [
+          "../static/images/screenshots/phrase-hunter1.png",
+          "../static/images/screenshots/phrase-hunter2.png",
+          "../static/images/screenshots/phrase-hunter3.png"
+        ]
+      }
     },
     {
       "id": 4,
@@ -34,7 +55,13 @@
       "technologies": ["HTML", "SCSS", "JavaScript"],
       "liveLink": "https://jahson8.github.io/dice-roll/",
       "githubLink": "https://github.com/jahson8/dice-roll",
-      "imageUrls": ["https://place-hold.it/1200x550/red"]
+      "images": {
+        "thumbnail": "../static/images/thumbnails/dice.png",
+        "imageUrls": [
+          "../static/images/screenshots/dice1.png",
+          "../static/images/screenshots/dice2.png"
+        ]
+      }
     },
     {
       "id": 5,
@@ -43,7 +70,13 @@
       "technologies": ["HTML", "SCSS", "JavaScript"],
       "liveLink": "https://jahson8.github.io/fewd-project5-photo-gallery",
       "githubLink": "https://github.com/jahson8/fewd-project5-photo-gallery",
-      "imageUrls": ["https://place-hold.it/1200x550/red"]
+      "images": {
+        "thumbnail": "../static/images/thumbnails/gallery.png",
+        "imageUrls": [
+          "../static/images/screenshots/gallery1.png",
+          "../static/images/screenshots/gallery2.png"
+        ]
+      }
     }
   ]
 }
