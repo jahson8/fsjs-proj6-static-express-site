@@ -16,7 +16,7 @@ body {
 
 body {
   position: relative;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -30,13 +30,11 @@ h1,
 h2,
 h3,
 h4,
-h5,
-p {
-  font-family: "Merriweather", serif;
+h5 {
+  font-family: "Fredoka One", serif;
 }
 
 h5 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
