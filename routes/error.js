@@ -10,12 +10,15 @@ const fourOhFourHandler = (req, res, next) => {
 // handle other errors
 const generalHandler = (err, req, res, next) => {
   if (err.status === 404) {
-    res.render("page-not-found", { err });
+    res.status(err.status).render("page-not-found", { err });
   } else {
-    res.status(500 || err.status);
+    err.status = 500;
     err.message = "Internal Server Error";
+    res.status(err.status);
     res.render("error", { err });
   }
+
+  console.error(err.status, err.message);
 };
 
 module.exports = { fourOhFourHandler, generalHandler };
