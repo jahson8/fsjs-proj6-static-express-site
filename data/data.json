@@ -36,7 +36,7 @@
       "id": 3,
       "projectName": "Phrase Hunter",
       "description": "The project consists of using HTML, CSS and JavaScript to create a game similar to hangman. The player guesses the phrase by clicking a letter on the onscreen keyboard. If the user selects a letter which isn't in the phrase, the player loses a heart(try). The player has 5 tries to guess the phrase correctly.",
-      "technologies": ["HTML", "SCSS", "JavaScript"],
+      "technologies": ["HTML", "CSS", "JavaScript"],
       "liveLink": "https://jahson8.github.io/fsjs-proj-4-Game-App/",
       "githubLink": "https://github.com/jahson8/fsjs-proj-4-Game-App",
       "images": {

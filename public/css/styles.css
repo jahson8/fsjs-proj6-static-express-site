@@ -1,4 +1,3 @@
-
 /*
   Main styles
 */
@@ -21,35 +20,36 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background: #fefefe;
-  background: #000;
+  background: #d6e4e3;
+  background: #1d3461;
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
 
-article {
-  background: #fefefe;
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: "Merriweather", serif;
 }
 
-h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
-}
-
-h5{
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+h5 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
 }
 
-h6{
+h6 {
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
   font-weight: 600;
 }
 
-p{
+p {
   font-size: 15px;
   color: #666;
 }
@@ -101,7 +101,6 @@ a {
   font-size: 13px;
 }
 
-
 /*
   Sidebar and mobile header
 */
@@ -109,17 +108,18 @@ nav {
   width: 100%;
   padding: 20px;
   border-bottom: 1px solid #eaeaea;
+  background-color: #fefefe;
 }
 
 nav a {
   width: 100%;
   vertical-align: middle;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555; 
+  color: #000;
 }
 
 nav a span {
@@ -137,7 +137,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: #1d3461;
 }
 
 .sidebar-info-box {
@@ -167,16 +167,15 @@ nav a span {
   text-rendering: optimizeLegibility;
   line-height: 1.6;
   font-size: 14px;
-  color: #999
+  color: white;
 }
 
 .sidebar a {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
 }
 
 .header {
@@ -209,7 +208,7 @@ nav a span {
 }
 
 .header button:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 40%;
   left: 0;
@@ -218,13 +217,14 @@ nav a span {
   background: #fefefe;
 }
 
-
 /*
   Home page styles
 */
 .portfolio-intro {
   max-width: 1200px;
   padding: 40px 50px 30px;
+  background-color: #d6e4e3;
+  text-align: center;
 }
 
 .portfolio-intro h1 {
@@ -238,17 +238,20 @@ nav a span {
   font-size: 125%;
   margin: 0 auto;
   padding-bottom: 40px;
-  border-bottom: 1px solid #eaeaea;
 }
 
 .projects-box h5 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 13px;
   letter-spacing: 2.25px;
   text-transform: uppercase;
-  color: #222;;
+  color: #222;
   margin: 0 auto 8px;
+}
+
+.cell {
+  text-align: center;
 }
 
 .cell a {
@@ -261,7 +264,6 @@ nav a span {
   border: 4px solid #fff;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
 }
-
 
 /* 
   About and project pages styles 
@@ -296,10 +298,37 @@ nav a span {
   max-width: 255px;
   margin: auto 0 5px 0;
   padding: 0.85em 1em;
-  background-color: #333;
+  background-color: #ad7d11;
   border: 1px solid transparent;
+  font-weight: 600;
+  border-radius: 0.4em;
 }
 
+nav,
+.grid,
+.box,
+.wrapper {
+  background-color: #d6e4e3;
+}
+
+.nav a {
+  font-weight: 700;
+}
+
+.box-shadow {
+  background-color: #fefefe;
+  padding: 1.2em;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 6%);
+  border-radius: 0.4em;
+}
+
+.cell.box-shadow {
+  padding: 0;
+}
+
+.err-msg {
+  text-align: center;
+}
 
 /* 
   Tablet layout styles 
@@ -339,7 +368,6 @@ nav a span {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
 }
-
 
 /* 
   Desktop layout styles 

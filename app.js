@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 const mainRoutes = require("./routes");
 const projectRoutes = require("./routes/projects");
-const errorHandlers = require("./error");
+const errorHandlers = require("./routes/error");
 
 // set templating engine
 app.set("view engine", "pug");

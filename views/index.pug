@@ -4,18 +4,21 @@ block content
 
   article.portfolio-intro
 
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Hello World
+    .box-shadow
 
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+   
+      h1 Hey Potential Partners!
+
+      h2 Let's build great projects together.
+
+      p While you're here, Have a look at some of my work.
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
 
       each project in projects
-        .cell
+        .cell.box-shadow
           a(href=`/projects/${project.id}`)
             img.thumbnail(src=`${project.images.thumbnail}`, alt=`${project.projectName}`)
             h5= project.projectName
